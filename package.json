@@ -1,0 +1,40 @@
+{
+  "name": "neimockpatch",
+  "version": "1.0.2",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "init": "node index.js init && node index.js mock",
+    "mock": "node index.js mock",
+    "test": "mocha test/diff.test.js",
+    "reset": "node index.js reset"
+  },
+  "bin": {
+    "neimockpatch": "./bin/neimockpatch.js"
+  },
+  "author": "caoyang",
+  "license": "MIT",
+  "description": "nei mock patch",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "q": "^1.4.1",
+    "q-io": "^1.13.2"
+  },
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "q": "^1.4.1",
+    "q-io": "^1.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheeeeep/nei-mock-patch.git"
+  },
+  "keywords": [
+    "nei",
+    "mock"
+  ],
+  "bugs": {
+    "url": "https://github.com/sheeeeep/nei-mock-patch/issues"
+  },
+  "homepage": "https://github.com/sheeeeep/nei-mock-patch#readme"
+}
