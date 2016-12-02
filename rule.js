@@ -37,7 +37,7 @@ const _writeRule = function (dir, data) {
     FS.exists(rulePath)
         .then(isExists => {
             if(!isExists) {
-                FS.write(rulePath, JSON.stringify(data, null, 4));    
+                FS.write(rulePath, JSON.stringify(data, null, 4));
             }
             else {
                 FS.read(rulePath)

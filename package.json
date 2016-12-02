@@ -1,6 +1,6 @@
 {
   "name": "neimockpatch",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "private": false,
   "main": "index.js",
   "scripts": {
